@@ -1,0 +1,12 @@
+{
+  "name": "tuning-car-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npx react-scripts start --openssl-legacy-provider"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  }
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "make": "Toyota",
+        "model": "Supra",
+        "parts": ["turbo", "bodykit", "naklejki"]
+    },
+    {
+        "make": "Nissan",
+        "model": "Skyline",
+        "parts": ["turbo", "bodykit", "naklejki"]
+    }
+]

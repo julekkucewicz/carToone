@@ -1,0 +1,114 @@
+.forum-container {
+    margin: 20px;
+  }
+  
+  .new-post-form,
+  .new-comment-form {
+    margin-bottom: 20px;
+  }
+  
+  .post-title-input,
+  .post-content-textarea,
+  .comment-content-textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .post-submit-button,
+  .comment-submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .post-submit-button:hover,
+  .comment-submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .posts-list,
+  .comments-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .post-item,
+  .comment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .post-item:hover,
+  .comment-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .post-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .post-content,
+  .comment-content {
+    margin: 5px 0 0;
+    font-size: 16px;
+  }
+  
+  .username {
+    color: #ff0000; /* Ten sam kolor co "wroom" */
+    font-weight: bold;
+  }
+  
+  .view-comments {
+    cursor: pointer;
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .view-comments:hover {
+    color: #0056b3;
+  }
+  
+  .post-detail {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .nav-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .nav-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+  }
+  
+  .delete-button:hover {
+    color: darkred;
+  }
+  
